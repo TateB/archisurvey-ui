@@ -1,0 +1,82 @@
+export const archExport = [
+  {
+    name: "name",
+    type: "string",
+    question: "Name",
+    index: 0,
+  },
+  {
+    name: "companyName",
+    type: "string",
+    question: "Company",
+    index: 1,
+  },
+  {
+    name: "email",
+    type: "string",
+    question: "Email Address",
+    index: 2,
+  },
+  {
+    name: "phoneNumber",
+    type: "string",
+    question: "Phone Number",
+    index: 3,
+  },
+  {
+    name: "projectAddress",
+    type: "string",
+    question: "What is the project address?",
+    index: 4,
+  },
+  {
+    name: "projectDescription",
+    type: "multichoice",
+    options: ["New House", "Addition to an Existing House", "Renovation"],
+    question: "Which of these is the closest description of your project?",
+    index: 5,
+  },
+  {
+    name: "projectStoreys",
+    type: "int",
+    question: "How many storeys does your project have?",
+    index: 6,
+  },
+  {
+    name: "isBasement",
+    type: "bool",
+    question: "Is there a basement?",
+    index: 7,
+  },
+  {
+    name: "projectSize",
+    type: "float",
+    question: "What is the building size?",
+    index: 8,
+  },
+  {
+    name: "projectEnergyStandard",
+    type: "float",
+    question: "What operational energy standard did your building achieve?",
+    index: 9,
+  },
+  {
+    name: "projectOtherEnergyScore",
+    type: "string",
+    question: "If NatHERS or BASIX, what score was achieved?",
+    index: 10,
+  },
+  {
+    name: "contractType",
+    type: "multichoice",
+    options: ["ABIC MW", "ABIC SW", "HIA", "Master Builders", "Owner Builder"],
+    question: "What type of building contract did you use?",
+    index: 11,
+  },
+  {
+    name: "architectAdministeredContract",
+    type: "bool",
+    question: "Was the building contract administered by the architect?",
+    index: 12,
+  },
+];
